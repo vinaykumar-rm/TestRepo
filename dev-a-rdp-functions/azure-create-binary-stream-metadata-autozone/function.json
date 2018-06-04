@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "name": "storageBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "rdp-media-assets-dev-a-autozone/{name}",
+      "connection": "devamediastorage_STORAGE"
+    }
+  ],
+  "disabled": false,
+  "tracing": {
+    "consoleLevel": "verbose",
+    "fileLoggingMode": "debugOnly"
+  }
+}
