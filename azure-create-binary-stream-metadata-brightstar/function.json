@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "rdp-media-assets-dev-a-brightstar/{name}",
+      "connection": "devamediastorage_STORAGE"
+    }
+  ],
+  "disabled": false
+}
