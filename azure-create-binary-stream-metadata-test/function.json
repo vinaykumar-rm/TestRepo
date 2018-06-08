@@ -1,7 +1,7 @@
 {
   "bindings": [
     {
-      "name": "myBlob",
+      "name": "myBlob1",
       "type": "blobTrigger",
       "direction": "in",
       "path": "rdp-media-assets-dev-a-brightstar/{name}",
