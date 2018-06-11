@@ -4,8 +4,8 @@
       "name": "storageBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "@@BLOBNAME@@/{name}",
-      "connection": "@@STORAGEACCOUNT@@"
+      "path": "rdp-media-assets-vinay-test-goodeggs/{name}",
+      "connection": "StorageConStr"
     }
   ],
   "disabled": false,
