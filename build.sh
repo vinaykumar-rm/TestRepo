@@ -1,6 +1,10 @@
-#!/bin/bash
+#! /bin/bash
 
 version=$1
-docker build . -t vinayumar:$version
 
-docker push vinayumar:$version
+sed -i "s/@@BUILDNUMBER@@/$version" index.html
+docker build . -t vinaykumar/nginx:$version
+
+
+
+#docker push docker.io/vinaykumar/nginx:$version
