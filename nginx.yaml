@@ -1,0 +1,18 @@
+version: "3.4"
+services:
+  nginx:
+    image: nginx
+    tty: true
+
+    ports:
+      - 9001:80
+    deploy:
+      replicas: 3
+      resources:
+        limits:
+          memory: 200m
+      restart_policy:
+        condition: any
+        delay: 60s
+        max_attempts: 6
+        window: 450s
